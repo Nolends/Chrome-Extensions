@@ -1,0 +1,21 @@
+{
+    "name": "True.Black",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "A true black ",
+    "background": {
+        "scripts": [
+            "popup.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "Invert.io",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
